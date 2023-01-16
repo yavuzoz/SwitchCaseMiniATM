@@ -63,6 +63,7 @@ public class Main {
                     int amountToDeposited= scanner.nextInt();
                     if(amountToDeposited<= halideBalance ){
                         System.out.println("enter IBAN number: ");
+                        scanner.nextLine();
                         String transferIBAN = scanner.nextLine();
                         if(transferIBAN.equals(yavuzIBAN))
                         {
